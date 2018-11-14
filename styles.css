@@ -13,7 +13,7 @@ body, html {
     height: 100%;
     background-color: white;
     animation-name: bg;
-    animation-duration: 0.05s;
+    animation-duration: 0.005s;
     animation-iteration-count: infinite;
     /* Full height */
     height: 100%; 
