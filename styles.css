@@ -5,6 +5,8 @@ body, html {
 .bg { 
     /* The image used */
     background-image: url("youp2.png");
+    background-size: 100px 100px;
+
 
     /* Full height */
     height: 10%; 
