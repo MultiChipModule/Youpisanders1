@@ -1,13 +1,19 @@
 body, html {
     height: 100%;
 }
+@keyframes bg {
+    from {background-image: url("youp2.png");}
+    to {background-image: url("youp22.png");}
+}
+
 
 .bg { 
     /* The image used */
-    background-image: url("youp2.gif");
-    background-size: 250px 250px;
-
-
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    animation-name: bg;
+    animation-duration: 4s;
     /* Full height */
     height: 100%; 
 
