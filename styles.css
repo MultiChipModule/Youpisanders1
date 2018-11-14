@@ -9,11 +9,11 @@ body, html {
 
 .bg { 
     /* The image used */
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 100%;
     background-color: white;
     animation-name: bg;
-    animation-duration: 4s;
+    animation-duration: 0.5s;
     /* Full height */
     height: 100%; 
 
