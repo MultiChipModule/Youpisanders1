@@ -13,5 +13,5 @@ body, html {
 
     /* Center and scale the image nicely */
     background-position: center;
-    background-repeat: repeat;
+    background-repeat: round;
 }
