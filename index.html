@@ -3,24 +3,69 @@
 <head>
 	<html lang="nl">
 	<meta charset="UTF-8">
+	<style>
+@keyframes bg {
+    from {background-image: url("youp2.png");}
+    to {background-image: url("youp2.png");}
+}
+
+
+body { 
+    /* The image used */
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    animation-name: bg;
+    animation-duration: 0.005s;
+    animation-iteration-count: infinite;
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: round;
+	}
+	.box{
+	  padding: 0;
+	  margin: 0;
+	  padding-top: 20%;	
+	  list-style: none;
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	}
+	button{
+		font-size: 200px;
+	}
+	p{
+		font-size: 100px;
+		font-family: arial;
+	}
+	</style>
 	<title>. </title>
 </head>
 
 <body>
-<button onclick="myFunction()">X</button>
+	<div class="box">
+		<button onclick="myFunction()">X</button>
 
-<p id="result"></p>
+		<p id="result"></p>
 	<h2></h2>
+	</div>
 	<script>function myFunction() {
     var currency = prompt("Is youp ", "Gay", "?");
     if (currency =="Gay") {
         document.getElementById("result").innerHTML =
         "Ja youp is " + currency + "!";
+		var elem = document.querySelector('button');
+		elem.parentNode.removeChild(elem);
 	}
     else { input = currency
 	}
         document.getElementById("result").innerHTML =
         "Ja youp is " + input + "!";
+		var elem = document.querySelector('button');
+		elem.parentNode.removeChild(elem);
 
 }
 		<!-- var bedrag = prompt("Voer een bedrag in"); -->
