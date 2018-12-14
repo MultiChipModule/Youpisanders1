@@ -1,94 +1,62 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="nl">
 <head>
-	<html lang="nl">
-	<meta charset="UTF-8">
-	<style>
-@keyframes bg {
-    from {background-image: url("youp2.png");}
-    to {background-image: url("youp2.png");}
-}
-
-
-body { 
-    /* The image used */
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    animation-name: bg;
-    animation-duration: 0.005s;
-    animation-iteration-count: infinite;
-    /* Full height */
-    height: 100%; 
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: round;
-	}
-	.box{
-	  padding: 0;
-	  margin: 0;
-	  padding-top: 20%;	
-	  list-style: none;
-	  display: flex;
-	  align-items: center;
-	  justify-content: center;
-	}
-	button{
-		font-size: 200px;
-	}
-	p{
-		font-size: 100px;
-		font-family: arial;
-		color: white;
-		text-shadow:
-		-3px -3px 0 #000,
-		3px -3px 0 #000,
-		-3px 3px 0 #000,
-		3px 3px 0 #000;  
-	}
-	</style>
-	<title>. </title>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Youp Is Anders</title>
+    <style>
+        .myButton {
+            -moz-box-shadow:inset 0px 1px 0px 0px #f5978e;
+            -webkit-box-shadow:inset 0px 1px 0px 0px #f5978e;
+            box-shadow:inset 0px 1px 0px 0px #f5978e;
+            background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f24537), color-stop(1, #c62d1f));
+            background:-moz-linear-gradient(top, #f24537 5%, #c62d1f 100%);
+            background:-webkit-linear-gradient(top, #f24537 5%, #c62d1f 100%);
+            background:-o-linear-gradient(top, #f24537 5%, #c62d1f 100%);
+            background:-ms-linear-gradient(top, #f24537 5%, #c62d1f 100%);
+            background:linear-gradient(to bottom, #f24537 5%, #c62d1f 100%);
+            filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f24537', endColorstr='#c62d1f',GradientType=0);
+            background-color:#f24537;
+            -moz-border-radius:6px;
+            -webkit-border-radius:6px;
+            border-radius:6px;
+            border:1px solid #d02718;
+            display:inline-block;
+            cursor:pointer;
+            color:#ffffff;
+            font-family:Arial;
+            font-size:15px;
+            font-weight:bold;
+            padding:6px 24px;
+            text-decoration:none;
+            text-shadow:0px 1px 0px #810e05;
+        }
+        .myButton:hover {
+            background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #f24537));
+            background:-moz-linear-gradient(top, #c62d1f 5%, #f24537 100%);
+            background:-webkit-linear-gradient(top, #c62d1f 5%, #f24537 100%);
+            background:-o-linear-gradient(top, #c62d1f 5%, #f24537 100%);
+            background:-ms-linear-gradient(top, #c62d1f 5%, #f24537 100%);
+            background:linear-gradient(to bottom, #c62d1f 5%, #f24537 100%);
+            filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62d1f', endColorstr='#f24537',GradientType=0);
+            background-color:#c62d1f;
+        }
+        .myButton:active {
+            position:relative;
+            top:1px;
+        }
+        a {
+            color: white;
+        }
+    </style>
 </head>
-
 <body>
-	<div class="box">
-		<button onclick="myFunction()">X</button>
+<button class="myButton"><a href="youp 1/youp.html">Youp Space</a></button>
+<button class="myButton"><a href="youp 2 snake/youp.html">Youp Slangen</a></button>
+<button class="myButton"><a href="youp 3 pacyoup/index.html">PacYoup</a></button>
+<button class="myButton"><a href="youp 5/index.html">Youp Ris</a></button>
 
-		<p id="result"></p>
-	<h2></h2>
-	</div>
-	<script>function myFunction() {
-    var currency = prompt("Is youp ", "Gay", "?");
-    if (currency =="Gay") {
-        document.getElementById("result").innerHTML =
-        "Ja youp is " + currency + "!";
-		var elem = document.querySelector('button');
-		elem.parentNode.removeChild(elem);
-	}
-    else { input = currency
-	}
-        document.getElementById("result").innerHTML =
-        "Ja youp is " + input + "!";
-		var elem = document.querySelector('button');
-		elem.parentNode.removeChild(elem);
-
-}
-		<!-- var bedrag = prompt("Voer een bedrag in"); -->
-        <!-- var currency = -->
-			<!-- (prompt("Euro's of Dollars?")); -->
-        <!-- var prijs = 29.90; -->
-			<!-- document.write("<br>Bedankt voor je bestelling: " + currency + bedrag); -->
-			<!-- document.write("<br>Boektitel is: " + titel); -->
-			<!-- document.write("<br>Aantal te bestellen: " + aantal); -->
-			<!-- document.write("<br>Prijs per boek is: " + prijs.toFixed(2)); -->
-        <!-- var bedrag = aantal * prijs; -->
-        <!-- var btw = bedrag * 0.06; -->
-        <!-- var totaal = bedrag + btw; -->
-			<!-- document.write("<br>Bedrag is: " + bedrag.toFixed(2)); -->
-			<!-- document.write("<br>BTW is: " + btw.toFixed(2)); -->
-			<!-- document.write("<br>Totaal is: " + totaal.toFixed(2)); -->
-	</script>
 </body>
-
 </html>
